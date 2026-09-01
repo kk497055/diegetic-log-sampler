@@ -6,7 +6,7 @@
   "main": "index.js",
   "exports": "./index.js",
   "bin": {
-    "diegetic-log": "./cli.js"
+    "diegetic-log": "cli.js"
   },
   "files": [
     "index.js",
@@ -28,10 +28,9 @@
   "homepage": "https://kk497055.itch.io/diegetic-ui-forge",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kk497055/diegetic-log-sampler.git"
+    "url": "git+https://github.com/kk497055/diegetic-log-sampler.git"
   },
   "engines": {
     "node": ">=18"
   }
 }
-
